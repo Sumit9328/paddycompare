@@ -414,91 +414,109 @@ body {
   font-weight: 700;
 }
 
-/* /////////////////////// */
+/* ////////////////////////////////// */
 
-.nth-p {
-  padding: 0;
-  margin: 0;
-  position: relative;
+.cta{
+  color: #fff;
+    background-color: #118657;
+    position: relative;
+    overflow: hidden;
 }
 
-.nth-main {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
+.cta .cta-circle {
+  position: absolute;
+  bottom: 89px;
+  height: 156px;
+  width: 156px;
+  left: -78px;
+  border-radius: 50%;
+  background-color: #FFFFFF26;
 }
 
-/* .nth-main img {
-  width: 100%;
-  height: 100%;
-} */
-
-.nthsec-main-text {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 40px;
+.cta .cta-logo {
+  position: absolute;
+  top: -30px;
+  right: 0;
 }
 
-.nth-main-thr-img {
-  display: flex;
-  width: 85px;
-  height: 85px;
-  justify-content: center;
+
+@media screen and (max-width: 786px) {
+  .container-gr {
+      padding: 0px 10px;
+  }
 }
 
-.nthsec-main-text {
-  padding: 20px 30px;
-  display: flex;
-  justify-content: space-around;
+.cta-in {
+  padding: 72px 0px;
 }
 
-.nth-main-thr {
-  max-width: 30ch;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
+.cta-in h2 {
+  padding-bottom: 80px;
 }
 
-.nth-main-thr-text {
+@media screen and (max-width: 786px) {
+  .cta-content {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+  }
+
+  .text{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .cta-content .items p, .cta-content .items h3 {
+    padding-top: 10px;
+}
+
+  .cta-in h2 {
+    padding-bottom: 35px;
+}
+
+}
+
+
+.text{
   display: flex;
   flex-direction: column;
   gap: 15px;
-  color: #fff;
 }
 
-.nth-main-image-div {
+
+.cta-content {
   display: flex;
-  padding: 20px 0;
-  justify-content: center;
-  gap: 20px;
+  /* flex-direction: row; */
+  justify-content: space-between;
 }
 
-.nth-sec-main {
-  position: absolute;
-  top: 22%;
-  width: 100%;
-  padding: 0 30px;
+
+.cta-content .items {
+  padding: 0px 36px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  
 }
 
-.nth-text-f {
-  font-size: 22px;
-  font-weight: 700;
+.text-center {
   text-align: center;
 }
 
-.nth-text-s {
-  font-size: 16px;
-  font-weight: 400;
-  text-align: center;
-}
 
-.padding-text {
-  font-size: 32px;
-  font-weight: 700;
-  text-align: center;
+.cta p.text-white {
   color: #fff;
 }
+.text-white {
+  color: #fff;
+}
+@media screen and (max-width: 1024px) {
+  p, a {
+      font-size: 14px;
+  }
+}
+
 
 /* ////////////////////////////////// */
 
