@@ -620,7 +620,7 @@ body {
   gap: 10px;
 }
 .dd-item a {
-  color: #fff;
+  color: #000000;
   text-transform: uppercase;
 }
 
@@ -1288,7 +1288,7 @@ body {
   position: absolute;
   left: 0;
   top: 68px;
-  background-color: red;
+  background-color: #E7F3EE;
   padding: 18px 30px;
   transition: 0.2s ease all;
   opacity: 0;
